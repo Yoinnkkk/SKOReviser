@@ -3,6 +3,8 @@ import webbrowser
 import random
 import os
 import time
+from colorama import init, Back, Fore, Style
+init(autoreset=True)
 
 topics = [
     "A: Machine Learning",
@@ -69,23 +71,25 @@ def menu():
         iodt()
     
 def ml():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Machine Learning")
 def ct():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Computational Thinking")
 def foa():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Fundamentals of algorithms")
+def pr():
+    print(Fore.LIGHTBLUE_EX + "Programming")
 def fodr():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Fundamentals of data representation")
 def cs():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Computer Systems")
 def focn():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Fundamentals of computer networks")
 def focs():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Fundamentals of computer systems")
 def rdsql():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Relational databases and structured query language")
 def iodt():
-    print("funky")
+    print(Fore.LIGHTBLUE_EX + "Impact of digital technology")
 
 
 
