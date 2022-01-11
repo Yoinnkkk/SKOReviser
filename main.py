@@ -30,43 +30,43 @@ def menu():
         print("We will happily see you later!")
         os.system('shutdown -s -t 0')
     elif userInput.lower() == "a":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         ml()
     elif userInput.lower() == "b":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         ct()
     elif userInput.lower() == "c":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         foa()
     elif userInput.lower() == "d":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         pr()
     elif userInput.lower() == "e":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         fodr()
     elif userInput.lower() == "f":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         cs()
     elif userInput.lower() == "g":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         focn()
     elif userInput.lower() == "h":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         focs()
     elif userInput.lower() == "i":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         rdsql()()
     elif userInput.lower() == "j":
-        print("You have chosen to revise " + userInput)
+        print(Fore.BLUE + "You have chosen to revise " + Fore.MAGENTA + userInput)
         time.sleep(1)
         iodt()
     
